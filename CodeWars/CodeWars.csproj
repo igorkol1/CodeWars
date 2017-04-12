@@ -73,6 +73,8 @@
     <Compile Include="Kata\Test\FindTheOddIntTest.cs" />
     <Compile Include="Kata\Test\FuelEconomyConverterTest.cs" />
     <Compile Include="Kata\Test\OnesAndZerosTests.cs" />
+    <Compile Include="Kata\Test\TheCouponCodeTests.cs" />
+    <Compile Include="Kata\The Coupon Code\TheCouponCode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
