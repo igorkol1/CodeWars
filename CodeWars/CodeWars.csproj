@@ -67,7 +67,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kata\Find the odd int\FindTheOddInt.cs" />
     <Compile Include="Kata\Fuel economy converter\FuelEconomyConverter.cs" />
+    <Compile Include="Kata\Test\FindTheOddIntTest.cs" />
     <Compile Include="Kata\Test\FuelEconomyConverterTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
