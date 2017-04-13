@@ -67,12 +67,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kata\All that is open must be closed\AllThatIsOpenMustBeClosed.cs" />
+    <Compile Include="Kata\All that is open must be closed\SentenceBalance.cs" />
     <Compile Include="Kata\Find the odd int\FindTheOddInt.cs" />
     <Compile Include="Kata\Fuel economy converter\FuelEconomyConverter.cs" />
+    <Compile Include="Kata\Gap in Primes\GapInPrimes.cs" />
+    <Compile Include="Kata\Gap in Primes\Primes.cs" />
     <Compile Include="Kata\Hangman game\Hangman.cs" />
     <Compile Include="Kata\Ones and Zeros\OnesAndZeros.cs" />
+    <Compile Include="Kata\Test\AllThatIsOpenMustBeClosedTests.cs" />
     <Compile Include="Kata\Test\FindTheOddIntTest.cs" />
     <Compile Include="Kata\Test\FuelEconomyConverterTest.cs" />
+    <Compile Include="Kata\Test\GapInPrimesTests.cs" />
     <Compile Include="Kata\Test\HangmanTests.cs" />
     <Compile Include="Kata\Test\OnesAndZerosTests.cs" />
     <Compile Include="Kata\Test\TheCouponCodeTests.cs" />
