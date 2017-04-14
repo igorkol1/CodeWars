@@ -73,11 +73,13 @@
     <Compile Include="Kata\Gap in Primes\Primes.cs" />
     <Compile Include="Kata\Hangman game\Hangman.cs" />
     <Compile Include="Kata\Ones and Zeros\OnesAndZeros.cs" />
+    <Compile Include="Kata\String Integer Greater-than\StringIntegerGreaterComparison.cs" />
     <Compile Include="Kata\Test\FindTheOddIntTest.cs" />
     <Compile Include="Kata\Test\FuelEconomyConverterTest.cs" />
     <Compile Include="Kata\Test\GapInPrimesTests.cs" />
     <Compile Include="Kata\Test\HangmanTests.cs" />
     <Compile Include="Kata\Test\OnesAndZerosTests.cs" />
+    <Compile Include="Kata\Test\StringIntegerGreaterComparisonTests.cs" />
     <Compile Include="Kata\Test\TheCouponCodeTests.cs" />
     <Compile Include="Kata\The Coupon Code\TheCouponCode.cs" />
     <Compile Include="Program.cs" />
