@@ -70,6 +70,8 @@
     <Compile Include="Kata\Build Tower\BuildTower.cs" />
     <Compile Include="Kata\Build Tower\BuildTowerKata.cs" />
     <Compile Include="Kata\Find the odd int\FindTheOddInt.cs" />
+    <Compile Include="Kata\Find the unknown digit\Runes.cs" />
+    <Compile Include="Kata\Find the unknown digit\RunesDecoder.cs" />
     <Compile Include="Kata\Fuel economy converter\FuelEconomyConverter.cs" />
     <Compile Include="Kata\Gap in Primes\GapInPrimes.cs" />
     <Compile Include="Kata\Gap in Primes\Primes.cs" />
@@ -82,6 +84,7 @@
     <Compile Include="Kata\Test\GapInPrimesTests.cs" />
     <Compile Include="Kata\Test\HangmanTests.cs" />
     <Compile Include="Kata\Test\OnesAndZerosTests.cs" />
+    <Compile Include="Kata\Test\RunesTests.cs" />
     <Compile Include="Kata\Test\StringIntegerGreaterComparisonTests.cs" />
     <Compile Include="Kata\Test\TheCouponCodeTests.cs" />
     <Compile Include="Kata\The Coupon Code\TheCouponCode.cs" />
