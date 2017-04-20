@@ -12,7 +12,7 @@ namespace CodeWars.Kata.Test
     class BuildTowerTests
     {
         [Test]
-        public void BasicTests()
+        public void BuildTowerTest()
         {
             Assert.AreEqual(string.Join(",", new[] { "*" }), string.Join(",", BuildTowerKata.TowerBuilder(1)));
             Assert.AreEqual(string.Join(",", new[] { " * ", "***" }), string.Join(",", BuildTowerKata.TowerBuilder(2)));

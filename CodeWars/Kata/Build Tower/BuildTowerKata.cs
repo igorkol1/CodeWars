@@ -12,7 +12,11 @@ namespace CodeWars.Kata.Build_Tower
         {
             BuildTower tower = new BuildTower(nFloors);
 
-            return new string[0];
+            tower.TowerBuilder();
+
+            tower.PrintTower();
+
+            return tower.GetTower();
         }
     }
 }
