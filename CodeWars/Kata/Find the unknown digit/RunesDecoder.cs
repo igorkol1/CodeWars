@@ -104,10 +104,25 @@ namespace CodeWars.Kata.Find_the_unknown_digit
             return status;
         }
 
+        private bool CheckIfNumberCanBeZero(string number)
+        {
+            bool status=true;
+
+            if(number[0] == '?')
+            {
+                if(number.Length > 1)
+                {
+                    status = false;
+                }
+            }
+
+            return status;
+        }
+
         private bool CheckIfAnyNumberStartWithGap()
         {
-            //TODO if lenght>1 them check if first sign is ? (thats should slve the problem)
-            return (((numberA[0] == '?') || (numberB[0] == '?')) || (result[0] == '?'))&& (((numberA.Length!=1) || (numberB.Length != 1)) || (result.Length!= 1));
+            return CheckIfNumberCanBeZero(numberA) && CheckIfNumberCanBeZero(numberB) && CheckIfNumberCanBeZero(result);
+
         }
 
         private int GetStartIndex()
