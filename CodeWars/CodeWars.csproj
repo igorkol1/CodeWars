@@ -76,8 +76,10 @@
     <Compile Include="Kata\Gap in Primes\GapInPrimes.cs" />
     <Compile Include="Kata\Gap in Primes\Primes.cs" />
     <Compile Include="Kata\Hangman game\Hangman.cs" />
+    <Compile Include="Kata\Next bigger number with the same digits\BigNumberConstructor.cs" />
     <Compile Include="Kata\Ones and Zeros\OnesAndZeros.cs" />
     <Compile Include="Kata\String Integer Greater-than\StringIntegerGreaterComparison.cs" />
+    <Compile Include="Kata\Test\BigNumberConstructorTests.cs" />
     <Compile Include="Kata\Test\BuildTowerTests.cs" />
     <Compile Include="Kata\Test\FindTheOddIntTest.cs" />
     <Compile Include="Kata\Test\FuelEconomyConverterTest.cs" />
