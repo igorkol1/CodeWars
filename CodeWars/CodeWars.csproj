@@ -67,6 +67,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kata\Bit calculator\BitCalculator.cs" />
     <Compile Include="Kata\Build Tower\BuildTower.cs" />
     <Compile Include="Kata\Build Tower\BuildTowerKata.cs" />
     <Compile Include="Kata\Find the odd int\FindTheOddInt.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="Kata\Ones and Zeros\OnesAndZeros.cs" />
     <Compile Include="Kata\String Integer Greater-than\StringIntegerGreaterComparison.cs" />
     <Compile Include="Kata\Test\BigNumberConstructorTests.cs" />
+    <Compile Include="Kata\Test\BitCalculatorTests.cs" />
     <Compile Include="Kata\Test\BuildTowerTests.cs" />
     <Compile Include="Kata\Test\FindTheOddIntTest.cs" />
     <Compile Include="Kata\Test\FuelEconomyConverterTest.cs" />
